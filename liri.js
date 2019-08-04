@@ -19,7 +19,7 @@ var liri = {
             });
     },
     'spotify-this-song': function (song) {
-        if (!song) song = 'The Sign';
+        if (!song) song = 'The Sign Ace of Base';
         spotify.search({ type: 'track', query: song }, (err, data) => {
             if (err) return console.log('Error occurred: ' + err);
             var artistNames = new Set();
@@ -28,7 +28,7 @@ var liri = {
             var songName = item.name;
             var url = item.external_urls.spotify;
             var albumName = item.album.name;
-            for (var j = 0; j < artists.length; ++j) {
+            for (var j = 0; j < artists.length; j++) {
                 artistNames.add(artists[j].name);
             }
             console.log('Artists: ' + Array.from(artistNames).join(', '));
