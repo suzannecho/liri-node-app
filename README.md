@@ -34,7 +34,9 @@ This will search the Bands in Town Artist Events API ("https://rest.bandsintown.
 * Venue location
 * Date of the Event (use moment to format this as "MM/DD/YYYY")
 
-![Concert-this](/images/concert-this.jpeg)
+<div align="center">
+    <img src="/images/concert-this.jpg" width="800px"</img> 
+</div>
 
 2. node liri.js spotify-this-song '<song name here>'
 
@@ -45,11 +47,14 @@ This will show the following information about the song in your terminal/bash wi
 * A preview link of the song from Spotify
 * The album that the song is from
 
-![Spotify-this-song](/images/spotify-this-song.jpeg)
-
+<div align="center">
+    <img src="/images/spotify-this-song.jpg" width="800px"</img> 
+</div>
 If no song is provided then your program will default to "The Sign" by Ace of Base.
 
-![Default-song](/images/default-spotify-this-song.jpeg)
+<div align="center">
+    <img src="/images/default-spotify-this-song.jpg" width="800px" </img> 
+</div>
 
 3. node liri.js movie-this '<movie name here>'
 
@@ -63,16 +68,20 @@ This will output the following information to your terminal/bash window:
    * Language of the movie.
    * Plot of the movie.
    * Actors in the movie.
-
-![movie-this](/images/movie-this.jpeg)
+<div align="center">
+    <img src="/images/movie-this.jpg" width="800px" height="300px"</img> 
+</div>
 
 If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
-
-![default-movie](/images/default-movie.this.jpeg)
+<div align="center">
+    <img src="/images/default-movie-this.jpg" width="800px" height="300px"</img> 
+</div>
 
 4. node liri.js do-what-it-says
 
-![do-what-it-says](/images/do-what-it-says.jpeg)
+<div align="center">
+    <img src="/images/do-what-it-says.jpg" width="800px"</img> 
+</div>
 
 Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
 
