@@ -30,9 +30,9 @@ In this assignment, we used Node JS to create a Liri bot.
 
 * This will search the Bands in Town Artist Events API ("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp") for an artist and render the following information about each event to the terminal:
 
-<br>Name of the venue
-<br>Venue location
-<br>Date of the Event (use moment to format this as "MM/DD/YYYY")
+* Name of the venue
+* Venue location
+* Date of the Event (use moment to format this as "MM/DD/YYYY")
 
 ![Concert-this](/images/concert-this.jpeg)
 
